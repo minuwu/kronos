@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+const base = import.meta.env.BASE_URL;
 
 const Footer = () => {
   return (
@@ -10,8 +10,8 @@ const Footer = () => {
             <p>Timeless design. Modern performance.</p>
           </div>
           <div className="legal-links">
-            <Link to="/privacy">Privacy Policy</Link>
-            <Link to="/terms">Terms of Service</Link>
+            <a href={`${base}privacy.html`}>Privacy Policy</a>
+            <a href={`${base}terms.html`}>Terms of Service</a>
           </div>
           <p>© {new Date().getFullYear()} Kronos App. All rights reserved.</p>
         </div>

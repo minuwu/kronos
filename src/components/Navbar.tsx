@@ -1,5 +1,6 @@
-import { Link } from 'react-router-dom';
 import { Hourglass } from 'lucide-react';
+
+const base = import.meta.env.BASE_URL;
 
 const Navbar = () => {
   return (
@@ -15,7 +16,7 @@ const Navbar = () => {
         justifyContent: 'space-between',
         alignItems: 'center'
       }}>
-        <Link to="/" style={{
+        <a href={base} style={{
           display: 'flex',
           alignItems: 'center',
           gap: '12px',
@@ -25,9 +26,9 @@ const Navbar = () => {
         }}>
           <Hourglass color="#d4af37" size={32} />
           KRONOS
-        </Link>
+        </a>
         <div style={{ display: 'flex', gap: '32px' }}>
-          <Link to="/" style={{ color: '#fff', fontWeight: '500' }}>Features</Link>
+          <a href={base} style={{ color: '#fff', fontWeight: '500' }}>Features</a>
           <a href="#" style={{ color: '#fff', fontWeight: '500' }}>Download</a>
         </div>
       </div>

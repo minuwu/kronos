@@ -3,8 +3,8 @@ import react from '@vitejs/plugin-react'
 import { resolve } from 'path'
 
 // https://vite.dev/config/
-export default defineConfig({
-  base: '/kronos/',
+export default defineConfig(({ mode }) => ({
+  base: mode === 'production' ? '/kronos/' : '/',
   plugins: [react()],
   build: {
     rollupOptions: {
@@ -15,4 +15,4 @@ export default defineConfig({
       },
     },
   },
-})
+}))
