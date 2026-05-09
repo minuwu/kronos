@@ -25,9 +25,9 @@ const Footer = () => {
           <div>
             <h4 className="display-text" style={{ fontSize: '0.9rem', marginBottom: '24px', color: 'var(--gold)' }}>LEGAL</h4>
             <ul style={{ listStyle: 'none', padding: 0 }}>
-              <li style={{ marginBottom: '12px' }}><a href={`${base}privacy`} className="text-muted" style={{ textDecoration: 'none' }}>Privacy Policy</a></li>
-              <li style={{ marginBottom: '12px' }}><a href={`${base}terms`} className="text-muted" style={{ textDecoration: 'none' }}>Terms of Service</a></li>
-              <li style={{ marginBottom: '12px' }}><a href={`${base}founder`} className="text-muted" style={{ textDecoration: 'none' }}>Founding Partner</a></li>
+              <li style={{ marginBottom: '12px' }}><a href={`${base}privacy.html`} className="text-muted" style={{ textDecoration: 'none' }}>Privacy Policy</a></li>
+              <li style={{ marginBottom: '12px' }}><a href={`${base}terms.html`} className="text-muted" style={{ textDecoration: 'none' }}>Terms of Service</a></li>
+              <li style={{ marginBottom: '12px' }}><a href={`${base}founder.html`} className="text-muted" style={{ textDecoration: 'none' }}>Founding Partner</a></li>
             </ul>
           </div>
 

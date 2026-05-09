@@ -116,7 +116,7 @@ const Terms = () => {
           <p className="text-muted">In order to resolve a complaint regarding the App or to receive further information regarding use of the App, or for formal licensing inquiries and reports of infringement, please contact us at:</p>
           <p className="text-muted" style={{ marginTop: '16px' }}>
             <strong style={{ color: 'var(--text-main)' }}>Legal Department Email:</strong> <a href="mailto:legal@minuwu.is-a.dev" style={{ color: 'var(--gold)', textDecoration: 'none' }}>legal@minuwu.is-a.dev</a><br />
-            <strong style={{ color: 'var(--text-main)' }}>Official Web Portal:</strong> <a href="https://minuwu.is-a.dev/kronos/terms" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--gold)', textDecoration: 'none' }}>minuwu.is-a.dev/kronos/terms</a>
+            <strong style={{ color: 'var(--text-main)' }}>Official Web Portal:</strong> <a href="https://minuwu.is-a.dev/kronos/terms.html" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--gold)', textDecoration: 'none' }}>minuwu.is-a.dev/kronos/</a>
           </p>
         </div>
 
