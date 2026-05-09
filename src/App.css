@@ -8,26 +8,7 @@ main {
   flex: 1;
 }
 
-.hero-section {
-  padding: 120px 0 80px;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-}
 
-.hero-title {
-  font-size: 4.5rem;
-  margin-bottom: 24px;
-  background: linear-gradient(135deg, #fff 0%, var(--primary) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.hero-subtitle {
-  font-size: 1.25rem;
-  max-width: 600px;
-  margin: 0 auto 40px;
-}
 
 .feature-grid {
   display: grid;
@@ -57,11 +38,7 @@ main {
   margin-bottom: 16px;
 }
 
-.section-title {
-  text-align: center;
-  font-size: 3rem;
-  margin-bottom: 60px;
-}
+
 
 .footer {
   padding: 60px 0 30px;
@@ -82,10 +59,7 @@ main {
   gap: 24px;
 }
 
-@media (max-width: 768px) {
-  .hero-title {
-    font-size: 3rem;
-  }
+
   .footer-content {
     flex-direction: column;
     text-align: center;

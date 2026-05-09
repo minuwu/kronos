@@ -1,0 +1,150 @@
+.hero-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 140px;
+}
+
+.hero-title {
+  font-size: clamp(2.5rem, 10vw, 5rem);
+  line-height: 1.1;
+  margin-bottom: 32px;
+  position: relative;
+}
+
+.hero-subtitle {
+  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  max-width: 700px;
+  margin: 0 auto 48px;
+  color: var(--text-champagne);
+  opacity: 0.8;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-top: 60px;
+}
+
+@media (max-width: 768px) {
+  .hero-subtitle {
+    padding: 0 10px;
+  }
+
+  .feature-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .roman-list {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .roman-item {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .vertical-line {
+    height: 60px !important;
+  }
+
+  .btn-primary {
+    width: 100%;
+    max-width: 300px;
+    padding: 14px 20px;
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-image-container {
+    margin-top: 40px;
+  }
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.hero-image-container {
+  margin-top: 80px;
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+}
+
+.hero-image-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid var(--gold);
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+.hero-image-container::after {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  border: 1px solid var(--gold);
+  opacity: 0.1;
+  pointer-events: none;
+}
+
+.feature-card {
+  height: 100%;
+}
+
+.roman-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  text-align: left;
+  margin-top: 60px;
+}
+
+.roman-item {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.roman-item-content h4 {
+  margin-bottom: 8px;
+  letter-spacing: 0.1em;
+}
+
+.cta-section {
+  border-top: 1px solid rgba(212, 175, 55, 0.2);
+  background: linear-gradient(to bottom, transparent, rgba(212, 175, 55, 0.05));
+}
+
+.cta-title {
+  font-size: clamp(2rem, 8vw, 3.5rem) !important;
+  margin-bottom: 24px;
+}
+
+.philosophy-text {
+  max-width: 800px;
+  margin: 0 auto 60px;
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  opacity: 0.8;
+}
+
+.display-text {
+  font-size: clamp(1.1rem, 3vw, 1.25rem);
+}
