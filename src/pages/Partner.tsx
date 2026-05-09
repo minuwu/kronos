@@ -1,12 +1,11 @@
 import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
-  Infinity,
+  Infinity as InfinityIcon,
   Ticket,
   MessageSquare,
   Wrench,
   ShieldCheck,
-  CreditCard,
   Beaker,
   Palette,
   ChevronDown,
@@ -25,9 +24,9 @@ const Partner = () => {
     script.src = 'https://assets.lemonsqueezy.com/lemon.js';
     script.defer = true;
     script.onload = () => {
-      // @ts-ignore
+      // @ts-expect-error - Lemon Squeezy script loads globally
       if (window.createLemonSqueezy) {
-        // @ts-ignore
+        // @ts-expect-error - Lemon Squeezy script loads globally
         window.createLemonSqueezy();
       }
     };
@@ -43,7 +42,7 @@ const Partner = () => {
 
   const perks = [
     {
-      icon: <Infinity size={24} />,
+      icon: <InfinityIcon size={24} />,
       title: "Lifetime Premium",
       description: "Full, uninterrupted access to all premium features of Kronos forever on your choice of platform (iOS or Android). No subscriptions, ever."
     },
