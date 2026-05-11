@@ -7,7 +7,7 @@ import {
   Smartphone,
   Layers
 } from 'lucide-react';
-import heroImage from '../assets/hero.png';
+import iconImage from '../assets/icon.png';
 import './Home.css';
 
 const Home = () => {
@@ -99,15 +99,17 @@ const Home = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ ...theatricalTransition, delay: 0.6 }}
           >
-            <img 
-              src={heroImage} 
-              alt="Kronos Hourglass" 
-              style={{ 
-                maxWidth: '100%', 
-                height: 'auto', 
-                display: 'block'
-              }} 
-            />
+            <div className="hero-app-icon">
+              <img 
+                src={iconImage} 
+                alt="Kronos Icon" 
+                style={{ 
+                  width: '100%', 
+                  height: '100%', 
+                  objectFit: 'cover'
+                }} 
+              />
+            </div>
           </motion.div>
         </div>
       </section>

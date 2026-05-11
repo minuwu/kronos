@@ -8,16 +8,16 @@ import {
   ShieldCheck,
   Beaker,
   Palette,
-  ChevronDown,
-  ChevronUp,
-  Bitcoin,
-  Mail
+//   ChevronDown,
+//   ChevronUp,
+//   Bitcoin,
+//   Mail
 } from 'lucide-react';
-import binanceQr from '../assets/binance-qr.png';
+// import binanceQr from '../assets/binance-qr.png';
 import './Partner.css';
 
 const Partner = () => {
-  const [showBinance, setShowBinance] = useState(false);
+  // const [showBinance, setShowBinance] = useState(false);
   useEffect(() => {
     // Load Lemon Squeezy script
     const script = document.createElement('script');
@@ -68,16 +68,16 @@ const Partner = () => {
     },
     {
       icon: <Palette size={24} />,
-      title: "Exclusive Skin Collection",
-      description: "Unlock all current and future paid skins for free. Your founder's status grants you instant access to the entire premium aesthetic library."
+      title: "2 Exclusive Premium Skins",
+      description: "Unlock 2 premium skins of your choice for free ($9.99 ea.). Your founder's status grants you instant access to these high-end aesthetic upgrades."
     }
   ];
 
   const VALUES = {
-    lifetime: 50,
-    monthly: 3,
-    skins: 25,
-    currentPrice: 20
+    lifetime: 100,
+    monthly: 5,
+    skins: 19.98,
+    currentPrice: 25
   };
   const totalValue = VALUES.lifetime + (VALUES.monthly * 5) + VALUES.skins;
 
@@ -114,7 +114,7 @@ const Partner = () => {
               className="btn-primary lemonsqueezy-button" 
               style={{ textDecoration: 'none', display: 'inline-block' }}
             >
-              Back the Project - $20
+              Back the Project - $25
             </a>
           </motion.div>
         </div>
@@ -149,7 +149,7 @@ const Partner = () => {
           <div className="section-header">
             <div className="vertical-line" />
             <h2 className="section-title">THE FOUNDER'S PACKAGE</h2>
-            <p className="hero-subtitle" style={{ fontSize: '1.5rem', marginBottom: '40px', color: 'var(--gold)' }}>$20 Minimum</p>
+            <p className="hero-subtitle" style={{ fontSize: '1.5rem', marginBottom: '40px', color: 'var(--gold)' }}>$25 Minimum</p>
             <p className="text-muted" style={{ maxWidth: '600px', margin: '0 auto 60px', fontSize: '1.1rem', color: 'var(--text-champagne)', opacity: 0.9 }}>
               By funding the launch, you aren't just buying an app; you are joining the development journey. Here is what you receive:
             </p>
@@ -214,16 +214,16 @@ const Partner = () => {
                     textDecoration: 'none' 
                   }}
                 >
-                  Contribute $20+
+                  Contribute $25+
                 </a>
               </div>
               <p className="text-muted" style={{ fontSize: '0.9rem' }}>
-                Payments are securely processed. You can set your own price above the $20 minimum.
+                Payments are securely processed. You can set your own price above the $25 minimum.
                 Any extra funds go directly into extending our server infrastructure and marketing budget.
               </p>
             </div>
 
-            <div className="divider-line" style={{ opacity: 0.2, margin: '32px 0' }} />
+            {/* <div className="divider-line" style={{ opacity: 0.2, margin: '32px 0' }} />
 
             <div style={{ textAlign: 'left' }}>
               <h4 className="display-text" style={{ fontSize: '1.1rem', marginBottom: '16px', color: 'var(--gold)' }}>Alternative Methods:</h4>
@@ -281,7 +281,7 @@ const Partner = () => {
                               <ShieldCheck size={20} className="text-gold" />
                             </div>
                             <p style={{ fontSize: '0.9rem', lineHeight: '1.5' }}>
-                              Please send no less than <strong>$20 (USDT/USDC)</strong> to secure your Founder status.
+                              Please send no less than <strong>$25 (USDT/USDC)</strong> to secure your Founder status.
                             </p>
                           </div>
                           
@@ -299,7 +299,7 @@ const Partner = () => {
                   )}
                 </AnimatePresence>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -315,26 +315,26 @@ const Partner = () => {
 
           <div style={{ maxWidth: '800px', margin: '0 auto' }}>
             <div className="art-deco-card" style={{ marginBottom: '40px', background: 'rgba(212, 175, 55, 0.05)', borderColor: 'var(--gold)' }}>
-              <h3 className="display-text" style={{ fontSize: '1.5rem', marginBottom: '24px', textAlign: 'center' }}>WHY $20 IS A STEAL</h3>
+              <h3 className="display-text" style={{ fontSize: '1.5rem', marginBottom: '24px', textAlign: 'center' }}>WHY $25 IS A STEAL</h3>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid rgba(212, 175, 55, 0.1)', paddingBottom: '8px' }}>
                   <span className="text-muted">Lifetime Premium (Play Store)</span>
-                  <span className="text-gold">${VALUES.lifetime}.00</span>
+                  <span className="text-gold">${VALUES.lifetime.toFixed(2)}</span>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid rgba(212, 175, 55, 0.1)', paddingBottom: '8px' }}>
-                  <span className="text-muted">5x Monthly Promo Codes (${VALUES.monthly} ea.)</span>
-                  <span className="text-gold">${VALUES.monthly * 5}.00</span>
+                  <span className="text-muted">5x Monthly Promo Codes (${VALUES.monthly.toFixed(2)} ea.)</span>
+                  <span className="text-gold">${(VALUES.monthly * 5).toFixed(2)}</span>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid rgba(212, 175, 55, 0.1)', paddingBottom: '8px' }}>
-                  <span className="text-muted">Exclusive Skin Collection</span>
-                  <span className="text-gold">${VALUES.skins}.00</span>
+                  <span className="text-muted">2 Exclusive Premium Skins</span>
+                  <span className="text-gold">${VALUES.skins.toFixed(2)}</span>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '8px', fontWeight: 'bold', fontSize: '1.2rem' }}>
                   <span className="text-champagne">Total Real-World Value</span>
-                  <span className="text-gold">${totalValue}.00</span>
+                  <span className="text-gold">${totalValue.toFixed(2)}</span>
                 </div>
                 <div style={{ textAlign: 'center', marginTop: '24px', padding: '16px', background: 'var(--gold)', color: 'var(--bg-obsidian)', fontWeight: 'bold', textTransform: 'uppercase', letterSpacing: '0.1em' }}>
-                  Your Price: ${VALUES.currentPrice}.00 (Save ${totalValue - VALUES.currentPrice}!)
+                  Your Price: ${VALUES.currentPrice.toFixed(2)} (Save ${(totalValue - VALUES.currentPrice).toFixed(2)}!)
                 </div>
               </div>
             </div>
@@ -363,9 +363,9 @@ const Partner = () => {
             </div>
 
             <div className="art-deco-card" style={{ textAlign: 'left' }}>
-              <h4 className="display-text" style={{ fontSize: '1.2rem', marginBottom: '12px' }}>Can I contribute more than $20?</h4>
+              <h4 className="display-text" style={{ fontSize: '1.2rem', marginBottom: '12px' }}>Can I contribute more than $25?</h4>
               <p className="text-muted" style={{ color: 'var(--text-champagne)', opacity: 0.8 }}>
-                Yes! Our checkout allows you to set your own price above the $20 minimum. Any extra funds go directly into extending our server infrastructure and marketing budget.
+                Yes! Our checkout allows you to set your own price above the $25 minimum. Any extra funds go directly into extending our server infrastructure and marketing budget.
               </p>
             </div>
           </div>

@@ -148,3 +148,16 @@
 .display-text {
   font-size: clamp(1.1rem, 3vw, 1.25rem);
 }
+.hero-app-icon {
+  width: 160px;
+  height: 160px;
+  border-radius: 40px; /* Squircle-like for Android */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+}
+
