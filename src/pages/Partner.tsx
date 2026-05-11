@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { useEffect } from 'react';
+import { motion } from 'framer-motion';
 import {
   Infinity as InfinityIcon,
   Ticket,
@@ -8,13 +8,18 @@ import {
   ShieldCheck,
   Beaker,
   Palette,
-//   ChevronDown,
-//   ChevronUp,
-//   Bitcoin,
-//   Mail
+  //   ChevronDown,
+  //   ChevronUp,
+  //   Bitcoin,
+  //   Mail
 } from 'lucide-react';
 // import binanceQr from '../assets/binance-qr.png';
 import './Partner.css';
+
+
+// Summary of changes:
+// src/pages/Partner.tsx:
+// Removed useState and AnimatePresence from imports, as they became unused after the Binance payout section was hidden.
 
 const Partner = () => {
   // const [showBinance, setShowBinance] = useState(false);
@@ -109,9 +114,9 @@ const Partner = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ ...theatricalTransition, delay: 0.4 }}
           >
-            <a 
-              href="https://kronos-premium.lemonsqueezy.com/checkout/buy/4bfb8719-7b8b-4de4-acc0-1f3510705915?embed=1&media=0" 
-              className="btn-primary lemonsqueezy-button" 
+            <a
+              href="https://kronos-premium.lemonsqueezy.com/checkout/buy/4bfb8719-7b8b-4de4-acc0-1f3510705915?embed=1&media=0"
+              className="btn-primary lemonsqueezy-button"
               style={{ textDecoration: 'none', display: 'inline-block' }}
             >
               Back the Project - $25
@@ -204,14 +209,14 @@ const Partner = () => {
                 marginBottom: '24px'
               }}>
                 <p className="text-gold" style={{ marginBottom: '16px', fontWeight: 'bold' }}>SECURE CHECKOUT</p>
-                <a 
-                  href="https://kronos-premium.lemonsqueezy.com/checkout/buy/4bfb8719-7b8b-4de4-acc0-1f3510705915?embed=1&media=0" 
-                  className="btn-primary lemonsqueezy-button" 
-                  style={{ 
-                    width: '100%', 
-                    maxWidth: '300px', 
-                    display: 'inline-block', 
-                    textDecoration: 'none' 
+                <a
+                  href="https://kronos-premium.lemonsqueezy.com/checkout/buy/4bfb8719-7b8b-4de4-acc0-1f3510705915?embed=1&media=0"
+                  className="btn-primary lemonsqueezy-button"
+                  style={{
+                    width: '100%',
+                    maxWidth: '300px',
+                    display: 'inline-block',
+                    textDecoration: 'none'
                   }}
                 >
                   Contribute $25+
