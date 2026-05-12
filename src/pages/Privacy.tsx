@@ -3,7 +3,7 @@ const Privacy = () => {
     <div className="container" style={{ padding: '160px 24px 100px' }}>
       <h1 className="display-text" style={{ fontSize: '3rem', marginBottom: '20px' }}>PRIVACY <span className="text-gold">POLICY</span></h1>
       <p className="text-muted" style={{ marginBottom: '60px', letterSpacing: '2px', fontSize: '0.9rem' }}>& INTELLECTUAL PROPERTY NOTICE</p>
-      
+
       <div className="art-deco-card">
         <p className="text-muted" style={{ marginBottom: '40px' }}>
           This Privacy Policy describes how Kronos Interactive ("we," "us," or "our") collects, uses, processes, and discloses your information in conjunction with your access to and use of the Kronos mobile application (the "App"). We are committed to protecting your personal information and your right to privacy.
@@ -29,7 +29,7 @@ const Privacy = () => {
           <p className="text-muted" style={{ marginBottom: '16px' }}>
             While we fiercely protect our technology, we equally prioritize your privacy. The App is engineered with an "Offline First" philosophy to minimize data collection.
           </p>
-          
+
           <div style={{ marginBottom: '24px' }}>
             <h3 className="display-text" style={{ fontSize: '1rem', marginBottom: '12px' }}>A. Real-Time Sensor Processing (No Data Storage)</h3>
             <p className="text-muted">
@@ -44,14 +44,14 @@ const Privacy = () => {
           <div style={{ marginBottom: '24px' }}>
             <h3 className="display-text" style={{ fontSize: '1rem', marginBottom: '12px' }}>B. Usage Analytics & Telemetry</h3>
             <p className="text-muted">
-              To ensure the App runs smoothly across thousands of diverse Android and iOS hardware configurations, we collect generalized, anonymized telemetry data. We utilize Microsoft Clarity to capture UI interaction patterns (e.g., how users navigate menus or interact with the 3D scene). This helps us identify UI bottlenecks, optimize rendering loops, and refine the proprietary physics experience. This data cannot be reverse-engineered to identify you personally, and no raw sensor data is ever captured.
+              To ensure the App runs smoothly across thousands of diverse Android and iOS hardware configurations, we collect generalized, anonymized telemetry data. We utilize advanced analytics and session replay tools to capture UI interaction patterns (e.g., how users navigate menus or interact with the 3D scene). This helps us identify UI bottlenecks, optimize rendering loops, and refine the proprietary physics experience. This data cannot be reverse-engineered to identify you personally, and no raw sensor data is ever captured.
             </p>
           </div>
 
           <div>
             <h3 className="display-text" style={{ fontSize: '1rem', marginBottom: '12px' }}>C. Subscription & Financial Transactions</h3>
             <p className="text-muted">
-              We do not process payments directly. All transactions for premium skins, founders packs, and recurring subscriptions are securely handled by the Apple App Store, Google Play Store, and our subscription management partner, RevenueCat. We only receive anonymized purchase validation tokens to unlock content on your device. We do not have access to, nor do we store, your credit card numbers, billing addresses, or primary financial credentials.
+              We do not process payments directly. All transactions for premium skins, founders packs, and recurring subscriptions are securely handled by the Apple App Store, Google Play Store, and our trusted subscription management partners. We only receive anonymized purchase validation tokens to unlock content on your device. We do not have access to, nor do we store, your credit card numbers, billing addresses, or primary financial credentials.
             </p>
           </div>
         </div>
@@ -80,8 +80,8 @@ const Privacy = () => {
           <h2 className="display-text" style={{ fontSize: '1.25rem', marginBottom: '24px', color: 'var(--gold)' }}>5. THIRD-PARTY DISCLOSURES & SHARING</h2>
           <p className="text-muted">We do not sell your personal data. We share only the absolute minimum necessary data with vetted partners under strict confidentiality agreements to maintain App functionality:</p>
           <ul className="text-muted" style={{ listStyleType: 'none', padding: '16px 0 0 20px' }}>
-            <li style={{ marginBottom: '12px' }}>• <strong style={{ color: 'var(--text-main)' }}>RevenueCat:</strong> Utilized for cross-platform subscription management and receipt validation.</li>
-            <li style={{ marginBottom: '12px' }}>• <strong style={{ color: 'var(--text-main)' }}>Microsoft Clarity:</strong> Utilized for advanced UI/UX optimization and heatmapping without compromising personal identity.</li>
+            <li style={{ marginBottom: '12px' }}>• <strong style={{ color: 'var(--text-main)' }}>Subscription Management Partner:</strong> Utilized for cross-platform subscription management and receipt validation.</li>
+            <li style={{ marginBottom: '12px' }}>• <strong style={{ color: 'var(--text-main)' }}>Analytics Partner:</strong> Utilized for advanced UI/UX optimization and heatmapping without compromising personal identity.</li>
             <li style={{ marginBottom: '12px' }}>• <strong style={{ color: 'var(--text-main)' }}>Platform Providers (Apple/Google):</strong> Utilized for fundamental platform-level processing, distribution, and native analytics.</li>
             <li style={{ marginBottom: '12px' }}>• <strong style={{ color: 'var(--text-main)' }}>Legal Requirements:</strong> We may disclose information if required to do so by law or in response to valid requests by public authorities (e.g., a court or a government agency), or to protect our intellectual property rights in civil litigation.</li>
           </ul>
