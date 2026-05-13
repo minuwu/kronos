@@ -115,7 +115,7 @@ const Partner = () => {
             transition={{ ...theatricalTransition, delay: 0.4 }}
           >
             <a
-              href="https://kronos-premium.lemonsqueezy.com/checkout/buy/4bfb8719-7b8b-4de4-acc0-1f3510705915?embed=1&media=0"
+              href="https://kronos-premium.lemonsqueezy.com/checkout/buy/2ae0f9c2-298c-4afa-946d-ac019e5eb447?embed=1&discount=0"
               className="btn-primary lemonsqueezy-button"
               style={{ textDecoration: 'none', display: 'inline-block' }}
             >
@@ -210,7 +210,7 @@ const Partner = () => {
               }}>
                 <p className="text-gold" style={{ marginBottom: '16px', fontWeight: 'bold' }}>SECURE CHECKOUT</p>
                 <a
-                  href="https://kronos-premium.lemonsqueezy.com/checkout/buy/4bfb8719-7b8b-4de4-acc0-1f3510705915?embed=1&media=0"
+                  href="https://kronos-premium.lemonsqueezy.com/checkout/buy/2ae0f9c2-298c-4afa-946d-ac019e5eb447?embed=1&discount=0"
                   className="btn-primary lemonsqueezy-button"
                   style={{
                     width: '100%',
