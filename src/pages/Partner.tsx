@@ -107,7 +107,7 @@ const Partner = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ ...theatricalTransition, delay: 0.2 }}
           >
-            A strictly limited-time crowdfunding event to help launch the most accurate physics-based productivity timer on the App Store.
+            A strictly limited-time Early Access Pre-Sale securing your lifetime beta license before our global App Store launch.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
@@ -119,7 +119,7 @@ const Partner = () => {
               className="btn-primary lemonsqueezy-button"
               style={{ textDecoration: 'none', display: 'inline-block' }}
             >
-              Back the Project - $25
+              Founder's Pre-order - $25
             </a>
           </motion.div>
         </div>
@@ -134,15 +134,15 @@ const Partner = () => {
             <div className="divider-line" />
           </div>
           <div className="art-deco-card" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'left' }}>
-            <h3 className="display-text" style={{ fontSize: '1.5rem', marginBottom: '24px', color: 'var(--gold)' }}>Why We Are Crowdfunding</h3>
+            <h3 className="display-text" style={{ fontSize: '1.5rem', marginBottom: '24px', color: 'var(--gold)' }}>Why Early Access Pre-Sale</h3>
             <p className="text-muted" style={{ marginBottom: '24px', fontSize: '1.1rem', lineHeight: '1.8', color: 'var(--text-champagne)', opacity: 0.8 }}>
               Kronos is ready. The physics engine is dialed in, the UI is polished, and the core features are locked. Now, we are preparing for a global release.
             </p>
             <p className="text-muted" style={{ marginBottom: '24px', fontSize: '1.1rem', lineHeight: '1.8', color: 'var(--text-champagne)', opacity: 0.8 }}>
-              To ensure the highest level of trust and app store compliance, we are publishing Kronos under a verified Business/Organization Apple Developer account. This process requires registering a formal entity, obtaining a DUNS number, and covering initial server infrastructure.
+              To ensure the highest level of trust and professional support, we are publishing Kronos as a verified business entity. This ensures that every Founder receives the security and reliability of a globally recognized organization.
             </p>
             <p className="text-muted" style={{ fontSize: '1.1rem', lineHeight: '1.8', color: 'var(--text-champagne)', opacity: 0.8 }}>
-              Instead of taking outside investment, we are offering a one-time Founder's Lifetime Deal to our earliest supporters to cover these specific launch costs. Once the app is live on the App Store, this deal will be removed forever.
+              As part of our commitment to our early community, we are offering a one-time Founder's Lifetime Deal. This allows our earliest supporters to secure their place in the Kronos ecosystem before the general public release.
             </p>
           </div>
         </div>
@@ -156,7 +156,7 @@ const Partner = () => {
             <h2 className="section-title">THE FOUNDER'S PACKAGE</h2>
             <p className="hero-subtitle" style={{ fontSize: '1.5rem', marginBottom: '40px', color: 'var(--gold)' }}>$25 Minimum</p>
             <p className="text-muted" style={{ maxWidth: '600px', margin: '0 auto 60px', fontSize: '1.1rem', color: 'var(--text-champagne)', opacity: 0.9 }}>
-              By funding the launch, you aren't just buying an app; you are joining the development journey. Here is what you receive:
+              By securing your pre-order license, you aren't just buying an app; you are joining the development journey. Here is what you receive:
             </p>
           </div>
 
@@ -197,7 +197,7 @@ const Partner = () => {
 
           <div className="art-deco-card" style={{ maxWidth: '600px', margin: '0 auto', textAlign: 'center', padding: '48px 24px' }}>
             <ShieldCheck size={48} color="var(--gold)" style={{ margin: '0 auto 24px' }} />
-            <h3 className="display-text" style={{ fontSize: '2rem', marginBottom: '16px' }}>FUND THE LAUNCH</h3>
+            <h3 className="display-text" style={{ fontSize: '2rem', marginBottom: '16px' }}>SECURE PRE-ORDER</h3>
 
             <div style={{ margin: '40px 0' }}>
               {/* Placeholder for Gumroad/Lemon Squeezy */}
@@ -209,22 +209,22 @@ const Partner = () => {
                 marginBottom: '24px'
               }}>
                 <p className="text-gold" style={{ marginBottom: '16px', fontWeight: 'bold' }}>SECURE CHECKOUT</p>
-                <a
-                  href="https://kronos-premium.lemonsqueezy.com/checkout/buy/2ae0f9c2-298c-4afa-946d-ac019e5eb447?embed=1&discount=0"
-                  className="btn-primary lemonsqueezy-button"
-                  style={{
-                    width: '100%',
-                    maxWidth: '300px',
-                    display: 'inline-block',
-                    textDecoration: 'none'
-                  }}
-                >
-                  Contribute $25+
-                </a>
+                  <a
+                    href="https://kronos-premium.lemonsqueezy.com/checkout/buy/2ae0f9c2-298c-4afa-946d-ac019e5eb447?embed=1&discount=0"
+                    className="btn-primary lemonsqueezy-button"
+                    style={{
+                      width: '100%',
+                      maxWidth: '300px',
+                      display: 'inline-block',
+                      textDecoration: 'none'
+                    }}
+                  >
+                    Secure Pre-order - $25+
+                  </a>
               </div>
               <p className="text-muted" style={{ fontSize: '0.9rem' }}>
                 Payments are securely processed. You can set your own price above the $25 minimum.
-                Any extra funds go directly into extending our server infrastructure and marketing budget.
+                Any additional amount directly supports the ongoing development and scaling of our infrastructure.
               </p>
             </div>
 
@@ -368,9 +368,9 @@ const Partner = () => {
             </div>
 
             <div className="art-deco-card" style={{ textAlign: 'left' }}>
-              <h4 className="display-text" style={{ fontSize: '1.2rem', marginBottom: '12px' }}>Can I contribute more than $25?</h4>
+              <h4 className="display-text" style={{ fontSize: '1.2rem', marginBottom: '12px' }}>Can I pay more than $25?</h4>
               <p className="text-muted" style={{ color: 'var(--text-champagne)', opacity: 0.8 }}>
-                Yes! Our checkout allows you to set your own price above the $25 minimum. Any extra funds go directly into extending our server infrastructure and marketing budget.
+                Yes! Our checkout allows you to set your own price above the $25 minimum. Any additional amount directly supports the ongoing development and scaling of our infrastructure.
               </p>
             </div>
           </div>

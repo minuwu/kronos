@@ -51,7 +51,7 @@ const Privacy = () => {
           <div>
             <h3 className="display-text" style={{ fontSize: '1rem', marginBottom: '12px' }}>C. Subscription & Financial Transactions</h3>
             <p className="text-muted">
-              We do not process payments directly. All transactions for premium skins, founders packs, and recurring subscriptions are securely handled by the Apple App Store, Google Play Store, and our trusted subscription management partners. We only receive anonymized purchase validation tokens to unlock content on your device. We do not have access to, nor do we store, your credit card numbers, billing addresses, or primary financial credentials.
+              We do not process payments directly. All transactions for premium skins, Founder's Lifetime Access, and recurring subscriptions are securely handled by the Apple App Store, Google Play Store, and our trusted subscription management partners. We only receive anonymized purchase validation tokens to unlock content on your device. We do not have access to, nor do we store, your credit card numbers, billing addresses, or primary financial credentials.
             </p>
           </div>
         </div>
