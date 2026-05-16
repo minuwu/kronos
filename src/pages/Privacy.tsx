@@ -134,8 +134,8 @@ const Privacy = () => {
           <h2 className="display-text" style={{ fontSize: '1.25rem', marginBottom: '24px', color: 'var(--gold)' }}>11. CONTACT US</h2>
           <p className="text-muted">For formal licensing inquiries, legal concerns, or privacy compliance questions, please reach out through our official channels:</p>
           <p className="text-muted" style={{ marginTop: '16px' }}>
-            <strong style={{ color: 'var(--text-main)' }}>Legal Department Email:</strong> <a href="mailto:legal@minuwu.is-a.dev" style={{ color: 'var(--gold)', textDecoration: 'none' }}>legal@minuwu.is-a.dev</a><br />
-            <strong style={{ color: 'var(--text-main)' }}>Official Web Portal:</strong> <a href="https://minuwu.is-a.dev/kronos/privacy.html" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--gold)', textDecoration: 'none' }}>minuwu.is-a.dev/kronos/</a>
+            <strong style={{ color: 'var(--text-main)' }}>Legal Department Email:</strong> <a href="mailto:mail@minuwu.is-a.dev" style={{ color: 'var(--gold)', textDecoration: 'none' }}>mail@minuwu.is-a.dev</a><br />
+            <strong style={{ color: 'var(--text-main)' }}>Official Web Portal:</strong> <a href="https://kronos.turflo.online/privacy.html" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--gold)', textDecoration: 'none' }}>kronos.turflo.online/</a>
           </p>
         </div>
 
