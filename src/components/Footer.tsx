@@ -34,8 +34,9 @@ const Footer = () => {
           <div>
             <h4 className="display-text" style={{ fontSize: '0.9rem', marginBottom: '24px', color: 'var(--gold)' }}>SOCIAL</h4>
             <ul style={{ listStyle: 'none', padding: 0 }}>
-              <li style={{ marginBottom: '12px' }}><a href="#" className="text-muted" style={{ textDecoration: 'none' }}>Instagram</a></li>
-              <li style={{ marginBottom: '12px' }}><a href="#" className="text-muted" style={{ textDecoration: 'none' }}>X (Twitter)</a></li>
+              <li style={{ marginBottom: '12px' }}><a href="https://x.com/KronosaFlip" target="_blank" rel="noopener noreferrer" className="text-muted" style={{ textDecoration: 'none' }}>X (Twitter)</a></li>
+              <li style={{ marginBottom: '12px' }}><a href="https://www.facebook.com/share/g/14eTgA3kwB3/" target="_blank" rel="noopener noreferrer" className="text-muted" style={{ textDecoration: 'none' }}>Facebook</a></li>
+              <li style={{ marginBottom: '12px' }}><a href="https://discord.gg/ZbPpfZrHxg" target="_blank" rel="noopener noreferrer" className="text-muted" style={{ textDecoration: 'none' }}>Discord</a></li>
             </ul>
           </div>
 
